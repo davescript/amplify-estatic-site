@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="mt3-bg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16191d"/>
+      <stop offset="100%" stop-color="#232329"/>
+    </linearGradient>
+    <radialGradient id="mt3-glow" cx="45%" cy="60%" r="45%">
+      <stop offset="0%" stop-color="#c8a15a" stop-opacity="0.4"/>
+      <stop offset="75%" stop-color="#c8a15a" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" rx="28" fill="url(#mt3-bg)"/>
+  <rect width="800" height="800" rx="28" fill="url(#mt3-glow)"/>
+  <g fill="none" stroke="#f5f5f5" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="280" cy="380" r="120"/>
+    <circle cx="520" cy="380" r="120"/>
+    <path d="M160 520h480"/>
+  </g>
+</svg>
